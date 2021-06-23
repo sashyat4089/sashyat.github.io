@@ -1,12 +1,90 @@
 .App {
+  flex-direction: row;
+  display: flex;
+  height: 35px;
+  margin-left: 38%;
+  position: absolute;
+  top: 0px;
+}
+.down {
+  margin-left: 48%;
+}
+.edudetail {
+  color: slategray;
+  margin-left: 30%;
+}
+.skillimage {
+  margin-left: 100px;
+}
+.aboutimage {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+}
+.technicalskill {
+  color: blue;
+}
+.technical_heding {
   text-align: center;
 }
-
+.eduheading {
+  margin-left: 50px;
+}
+.secondcon {
+  display: flex;
+  flex-direction: row;
+  margin-left: 45%;
+  margin-top: 60px;
+}
+.firstcon {
+  display: flex;
+  flex-direction: row;
+  margin-left: 45%;
+  margin-top: 60px;
+}
+.arrowdown {
+  position: absolute;
+  top: 490px;
+  margin-left: 46%;
+}
+.imagecontainer {
+  margin-top: 10px;
+  width: 500px;
+}
+.education {
+  margin-left: 190px;
+  color: blue;
+}
+.arrowstyle {
+  border-radius: 60%;
+  background-color: yellowgreen;
+}
+.remove_underine {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.home_article {
+  position: absolute;
+  color: aliceblue;
+  text-align: center;
+  top: 160px;
+  margin-left: 350px;
+}
+.Link {
+  height: 35px;
+  padding-left: 10px;
+  margin-top: 4px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.home-page {
+  size: 15px;
+  height: 500px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +104,10 @@
 
 .App-link {
   color: #61dafb;
+}
+.reading_image {
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 @keyframes App-logo-spin {
